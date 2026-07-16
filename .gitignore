@@ -1,26 +1,2 @@
-# Dependencies
-node_modules/
-
-# Environment files
+node_modules
 .env
-.env.*
-!.env.example
-
-# Next.js
-.next/
-out/
-
-# Build
-dist/
-build/
-
-# Logs
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db

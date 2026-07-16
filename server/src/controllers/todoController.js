@@ -58,7 +58,7 @@ export const updateTodo = async (req,res) =>{
             if(!updateTodo) {
                 return res.status(404).json({
                     success : false,
-                    message : 'Todo not found'
+                    message : 'Todo not found'    
                 })
             }
 
